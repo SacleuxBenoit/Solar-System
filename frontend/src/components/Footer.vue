@@ -1,6 +1,6 @@
 <template>
     <div id="footer">
-        <p> Ce site est réalisé dans le cadre d'un exercice perso</p>
+        <p>© Copyright 2020-{{ new Date().getFullYear() }} - All rights reserved. Total or partial reproduction prohibited without permission of the author.</p>
     </div>
 </template>
 
@@ -14,6 +14,6 @@ export default {
 #footer{
     position: absolute;
     bottom: 0;
-    left: 40%
+    left: 27%
 }
 </style>
