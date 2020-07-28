@@ -1,6 +1,6 @@
 <template>
     <div style="text-align:center">
-      <h1><router-link to="/" style="color:black;text-decoration:none">Solar System</router-link></h1>
+      <h1 class="content"><router-link to="/" style="color:white;text-decoration:none">Solar System</router-link></h1>
       
        <v-bottom-navigation grow height="2.5rem">
 
