@@ -5,7 +5,7 @@
        <v-bottom-navigation grow height="2.24rem">
 
     <v-btn :value="activeBtn" style="background-color: rgb(34, 32, 32)" class="button">
-      <strong><router-link to="/" style="color:#f0f068">Sun</router-link></strong>
+      <strong><router-link to="/sun" style="color:#f0f068">Sun</router-link></strong>
     </v-btn>
 
     <v-btn :value="activeBtn" style="background-color: rgb(34, 32, 32)" class="button">
