@@ -1,5 +1,5 @@
 <template>
-    <div id="footer">
+    <div id="footer" class="content">
         <p>© Copyright 2020-{{ new Date().getFullYear() }} - All rights reserved. Total or partial reproduction prohibited without permission of the author.</p>
     </div>
 </template>
