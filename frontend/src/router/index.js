@@ -1,16 +1,16 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
-import Sun from "../views/Sun.vue";
-/*import Mercury from "../views/Mercury.vue";
-import Venus from "../views/Venus.vue";
-import Earth from "../views/Earth.vue";
-import Mars from "../views/Mars.vue";
-import Jupiter from "../views/Jupiter.vue";
-import Saturn from "../views/Saturn.vue";
-import Uranus from "../views/Uranus.vue";
-import Neptune from "../views/Neptune.vue";
-*/
+import Sun from "../views/Planet/Sun.vue";
+import Mercury from "../views/Planet/Mercury.vue";
+import Venus from "../views/Planet/Venus.vue";
+import Earth from "../views/Planet/Earth.vue";
+import Mars from "../views/Planet/Mars.vue";
+import Jupiter from "../views/Planet/Jupiter.vue";
+import Saturn from "../views/Planet/Saturn.vue";
+import Uranus from "../views/Planet/Uranus.vue";
+import Neptune from "../views/Planet/Neptune.vue";
+
 Vue.use(VueRouter);
 
 const routes = [
@@ -35,7 +35,7 @@ const routes = [
     name: "Sun",
     component: Sun
   },
-/*
+
   {
     path: "/mercury",
     name: "Mercury",
@@ -62,9 +62,9 @@ const routes = [
     component: Jupiter
   },
     {
-    path: "/saturne",
-    name: "Saturne",
-    component: Saturne
+    path: "/saturn",
+    name: "Saturn",
+    component: Saturn
   },
     {
     path: "/uranus",
@@ -72,11 +72,10 @@ const routes = [
     component: Uranus
   },
   {
-    path: "/neputune",
+    path: "/neptune",
     name: "Neptune",
     component: Neptune
   },
-*/
   {
     path: "*",
     redirect: '/'
