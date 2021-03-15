@@ -1,3 +1,8 @@
+<?php
+session_start();
+include('./password_database.php');
+include('./database/connection_database.php');
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
