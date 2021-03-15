@@ -13,7 +13,7 @@
     <?php
         $get_content = $bdd->query('SELECT * FROM planets');
         while($display_content = $get_content->fetch()){
-            echo $display_content['title'] . " ";
+            echo '<a href="#">' . $display_content['title'] . '</a>' . " | " ;
         }
     ?>
 </body>
